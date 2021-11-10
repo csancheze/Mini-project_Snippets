@@ -53,7 +53,7 @@ main {
     border: 1px solid white;
     border-style: dashed;
     position: relative;
-    transition: all 0.5s ease-in-out;
+    transition: all 5s ease-in-out;
     
 }
 
@@ -81,7 +81,7 @@ section h2 {
     font-weight: bold;
     font-size: 250%;
     border: 1px solid white;
-    height:1.1em;
+    height: auto;
     margin: 1px 50px;
     padding: 1px;
     position: relative;
@@ -102,12 +102,12 @@ section h2 {
 .snippet pre {
     color: white;
     background: linear-gradient(rgb(71, 70, 75), var(--Greenier));
-    margin: 10px;
+    margin: 10px auto;
     line-height: 2;
     position: relative;
     top: 10%;
     border-radius: 15px;
     user-select: text;
-
-
+    text-align: left;
+    width: 80%;
 }
