@@ -46,6 +46,8 @@ main {
 
 .snippet {
     width: 30%;
+    display:flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: 10px auto;
@@ -53,7 +55,7 @@ main {
     border: 1px solid white;
     border-style: dashed;
     position: relative;
-    transition: all 5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     
 }
 
@@ -88,13 +90,12 @@ section h2 {
     bottom: 10px;
     background: var(--Darkered);
     border-radius: 10px;
-    
 
 }
 
 .snippet p {
     font-size: 150%;
-    margin: 20px 10px;
+    margin: 10px 10px;
 }
 
 
@@ -102,10 +103,9 @@ section h2 {
 .snippet pre {
     color: white;
     background: linear-gradient(rgb(71, 70, 75), var(--Greenier));
-    margin: 10px auto;
+    margin: 5px auto;
     line-height: 2;
-    position: relative;
-    top: 10%;
+    flex: 70%;
     border-radius: 15px;
     user-select: text;
     text-align: left;
